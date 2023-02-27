@@ -1,0 +1,31 @@
+
+--> acc:drop
+--> acc:empty
+--> acc:seed
+
+
+--> gs:drop
+
+
+--> hospital:seed
+--> hospital:drop
+
+
+--> make:trait
+--> run:migrate
+
+
+--> hrm:drop
+--> hrm-evaluation:seed
+
+
+--> module:advancemodel
+--> make:module
+--> module:controller
+--> module:model
+
+--> permission:drop
+--> permission:seed
+--> pos:seed
+--> app:release
+--> sync:attendance

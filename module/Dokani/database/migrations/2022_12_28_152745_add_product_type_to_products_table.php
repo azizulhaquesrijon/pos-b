@@ -1,0 +1,32 @@
+<?php
+
+use Illuminate\Database\Migrations\Migration;
+use Illuminate\Database\Schema\Blueprint;
+use Illuminate\Support\Facades\Schema;
+
+class AddProductTypeToProductsTable extends Migration
+{
+    /**
+     * Run the migrations.
+     *
+     * @return void
+     */
+    public function up()
+    {
+        Schema::table('products', function (Blueprint $table) {
+            $table->integer('product_type')->nullable()->after('alert_qty')->comment('1=finish,2=raw_material');
+        });
+    }
+
+    /**
+     * Reverse the migrations.
+     *
+     * @return void
+     */
+    public function down()
+    {
+        Schema::table('products', function (Blueprint $table) {
+            $table->dropColumn('product_type');
+        });
+    }
+}

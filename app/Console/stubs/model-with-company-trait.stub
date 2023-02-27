@@ -1,0 +1,12 @@
+<?php
+
+namespace Module\Path\Models\Folder;
+
+use App\Traits\AutoCreatedUpdatedWithCompany;
+use App\Model;
+
+class ModelName extends Model
+{
+    use AutoCreatedUpdatedWithCompany;
+
+}

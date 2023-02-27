@@ -1,0 +1,6 @@
+name,category,unit,buy_price,sell_price,barcode,openingQty,alertQty,product_type
+test product,test,kg,110,123,12345,100,9,finish
+
+
+name,category,unit,buy_price,sell_price,barcode,openingQty,alertQty,product_type
+test product,test,kg,110,123,12345,100,9,raw material

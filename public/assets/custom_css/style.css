@@ -1,0 +1,14 @@
+
+
+.small_input_box{
+    height: 25px !important;
+    padding: 1.5px !important;
+}
+
+.small_input_button{
+    height: 20px !important;
+    padding: 1.5px !important;
+}
+.with-border{
+    border-bottom: 1px dotted gray !important;
+}
